@@ -1,6 +1,4 @@
 // components/About.js
-import { Code, Palette, Rocket } from 'lucide-react';
-
 function About() {
   return (
     <section id="about">
