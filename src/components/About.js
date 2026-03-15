@@ -27,7 +27,7 @@ function About() {
             </div>
           </div> */}
           
-          <a href="https://drive.google.com/file/d/1qNR-WgCiKMOCzabl7bJRqWOLfaqkTm9y/view?usp=sharing" className="cta-button" target="_blank" rel="noopener noreferrer">Download my CV</a>
+          <a href="https://drive.google.com/file/d/1ToVp_vM-87KfQRgyXskb4KbP7tt8Hele/view?usp=sharing" className="cta-button" target="_blank" rel="noopener noreferrer">Download my CV</a>
         </div>
         <div className="about-sidebar">
           <div className="sidebar-profile-image">
