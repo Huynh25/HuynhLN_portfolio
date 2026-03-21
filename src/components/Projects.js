@@ -21,15 +21,15 @@ function Projects() {
       backend: "https://github.com/Huynh25/wdp301_petwell_backend.gits",
       demo: "#"
     },
-    // {
-    //   id: 3,
-    //   title: "Social Media Dashboard",
-    //   description: "Analytics dashboard for social media management",
-    //   tech: ["React", "Python", "PostgreSQL"],
-    //   frontend: "https://github.com",
-    //   backend: "https://github.com",
-    //   demo: "https://dashboard.com"
-    // },
+    {
+      id: 3,
+      title: "Clone Highlands Coffee App",
+      description: "A clone of the Highlands Coffee mobile application with similar features and functionality",
+      tech: ["React Native", "Express.js", "MongoDB", "Cloudinary"],
+      frontend: "https://github.com/Huynh25/project-mma-highlands.git",
+      backend: "https://github.com/Huynh25/Project-api-MMA301.git",
+      demo: "#"
+    },
     // {
     //   id: 4,
     //   title: "AI Chatbot",
