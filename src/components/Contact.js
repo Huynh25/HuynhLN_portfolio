@@ -12,7 +12,7 @@ function Contact() {
     {
       icon: MapPin,
       title: 'Location',
-      content: 'Ho Chi Minh City, Vietnam',
+      content: 'Can Tho, Vietnam',
       link: '#'
     },
     {
@@ -31,14 +31,14 @@ function Contact() {
   return (
     <section id="contact">
       <h2>Contact Me</h2>
-      
+
       <div className="contact-cards">
         {contactInfo.map((info, idx) => {
           const Icon = info.icon;
           return (
-            <a 
-              key={idx} 
-              href={info.link} 
+            <a
+              key={idx}
+              href={info.link}
               className="contact-card"
               target={info.link.startsWith('http') ? '_blank' : '_self'}
               rel="noopener noreferrer"
@@ -55,8 +55,8 @@ function Contact() {
         {socialLinks.map((social, idx) => {
           const Icon = social.icon;
           return (
-            <a 
-              key={idx} 
+            <a
+              key={idx}
               href={social.url}
               className="social-icon"
               target="_blank"
