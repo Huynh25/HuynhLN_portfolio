@@ -30,9 +30,9 @@ function About() {
           <a href="https://drive.google.com/file/d/1ToVp_vM-87KfQRgyXskb4KbP7tt8Hele/view?usp=sharing" className="cta-button" target="_blank" rel="noopener noreferrer">Download my CV</a>
         </div>
         <div className="about-sidebar">
-          <div className="sidebar-profile-image">
+          {/* <div className="sidebar-profile-image">
             <img src="/profile.jpg" alt="Profile" className="profile-img" />
-          </div>
+          </div> */}
           <div className="sidebar-section">
             <p className="location">📍 Asia/Can Tho</p>
           </div>
