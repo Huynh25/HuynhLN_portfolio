@@ -8,7 +8,7 @@ function About() {
           <p>Hi, I'm Le Nhu Huynh, an aspiring Frontend Developer with a solid foundation in Software Engineering from FPT University. I have gained practical experience through internships and software projects, focusing on building user-centric interfaces.</p>
           <p>I am passionate about understanding technical requirements and translating them into clean, functional code using React.js and JavaScript</p>
           <p>By combining my IT background with a focus on structured documentation and user-centric design, I aim to contribute to professional teams and deliver impactful digital products</p>
-          
+
           {/* <div className="skills-highlight">
             <div className="skill-card">
               <Code className="skill-icon" size={40} strokeWidth={1.5} />
@@ -26,7 +26,7 @@ function About() {
               <p>Always learning and improving new front-end skills.</p>
             </div>
           </div> */}
-          
+
           <a href="https://drive.google.com/file/d/1ToVp_vM-87KfQRgyXskb4KbP7tt8Hele/view?usp=sharing" className="cta-button" target="_blank" rel="noopener noreferrer">Download my CV</a>
         </div>
         <div className="about-sidebar">
@@ -34,7 +34,7 @@ function About() {
             <img src="/profile.jpg" alt="Profile" className="profile-img" />
           </div>
           <div className="sidebar-section">
-            <p className="location">📍 Asia/Ho Chi Minh</p>
+            <p className="location">📍 Asia/Can Tho</p>
           </div>
           <div className="sidebar-section">
             <h4>Languages</h4>
@@ -45,7 +45,7 @@ function About() {
             </ul>
           </div>
         </div>
-        
+
       </div>
     </section>
   );
