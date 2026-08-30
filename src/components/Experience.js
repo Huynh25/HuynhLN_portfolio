@@ -5,10 +5,10 @@ function Experience() {
       type: "Experience",
       title: "Frontend Developer Intern",
       company: "FPT Software",
-      period: "04/2024 – 8/2024",
+      period: "04/2024 - 08/2024",
       description: [
         "Designed and developed an e-learning web application inspired by Coursera using React.js.",
-        "Collaborated with backend team to consume REST APIsand ensure smooth data flow",
+        "Collaborated with the backend team to consume REST APIs and keep data flow smooth.",
       ]
     },
     {
@@ -22,6 +22,10 @@ function Experience() {
 
   return (
     <section id="experience">
+      <div className="section-heading">
+        <p className="eyebrow">Background</p>
+        <h2>Experience and education behind the work.</h2>
+      </div>
       <div className="experience-wrapper">
         <div className="exp-section">
           <h2>Experience</h2>

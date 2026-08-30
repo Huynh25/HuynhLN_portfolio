@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#071017"/>
+  <rect x="8" y="8" width="48" height="48" rx="12" fill="#10c8e8"/>
+  <rect x="12" y="12" width="40" height="40" rx="10" fill="#f8fbff"/>
+  <text x="32" y="38" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="800" fill="#071017">LH</text>
+  <rect x="43" y="42" width="9" height="3" rx="1.5" fill="#10c8e8"/>
+</svg>

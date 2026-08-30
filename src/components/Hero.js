@@ -1,30 +1,53 @@
-import { Code, Palette, Rocket } from "lucide-react";
+import { ArrowDownRight, Braces, Github, Layers, Smartphone } from "lucide-react";
 
-// components/Hero.js
 function Hero() {
+  const dockItems = [
+    { label: "React", value: "Rx" },
+    { label: "API", value: "</>" },
+    { label: "Mobile", value: "RN" },
+    { label: "DB", value: "SQL" },
+  ];
+
   return (
     <section id="hero" className="hero">
-      <div className="hero-content">
-        <h1>Building Seamless Interfaces from Robust Logic</h1>
-        <p>Hi, I'm <span className="highlight">Le Nhu Huynh</span>, a <span className="highlight">Software Engineer</span> graduate with hands-on experience through internships and diverse team projects</p>
-                  <div className="skills-highlight">
-            <div className="skill-card">
-              <Code className="skill-icon" size={40} strokeWidth={1.5} />
-              <h3>Developer</h3>
-              <p>Building responsive and performant web apps.</p>
+      <div className="hero-grid">
+        <div className="hero-copy">
+          <p className="eyebrow">Frontend Developer · React · Mobile · Enterprise UI</p>
+          <h1>Building interfaces for real teams, real workflows, and real data.</h1>
+          <p className="hero-description">
+            Hi, I am <span className="highlight">Le Nhu Huynh</span>. I turn business requirements into clean React and React Native products for attendance, work schedules, company operations, and public-service systems.
+          </p>
+          <div className="hero-actions">
+            <a href="#project" className="cta-button primary-action">
+              View projects <ArrowDownRight size={18} strokeWidth={1.8} />
+            </a>
+            <a href="https://github.com/Huynh25" className="cta-button secondary-action" target="_blank" rel="noopener noreferrer">
+              <Github size={18} strokeWidth={1.8} /> Github
+            </a>
+          </div>
+        </div>
+
+        <div className="hero-visual" aria-label="Technical portfolio visual">
+          <div className="portrait-stage">
+            <div className="code-window floating-card">
+              <div className="window-controls"><span></span><span></span><span></span></div>
+              <pre>{`const developer = {
+  name: "Le Nhu Huynh",
+  focus: ["React", "UI systems", "Mobile"],
+  ships: "enterprise workflows"
+};`}</pre>
             </div>
-            <div className="skill-card">
-              <Palette className="skill-icon" size={40} strokeWidth={1.5} />
-              <h3>UI/UX</h3>
-              <p>Designing clean and intuitive user experiences.</p>
-            </div>
-            <div className="skill-card">
-              <Rocket className="skill-icon" size={40} strokeWidth={1.5} />
-              <h3>Growth</h3>
-              <p>Always learning and improving new front-end skills.</p>
+            <img src="/assets/chibi-developer.png" alt="Chibi developer coding with technical UI elements" className="chibi-hero" />
+            <div className="tech-node node-react"><Braces size={22} /> React</div>
+            <div className="tech-node node-mobile"><Smartphone size={22} /> Mobile</div>
+            <div className="tech-node node-system"><Layers size={22} /> Systems</div>
+            <div className="hero-dock" aria-label="Technical stack dock">
+              {dockItems.map((item) => (
+                <span key={item.label} title={item.label}>{item.value}</span>
+              ))}
             </div>
           </div>
-        <a href="#about" className="cta-button">About – Le Nhu Huynh</a>
+        </div>
       </div>
     </section>
   );

@@ -13,7 +13,10 @@ function Certificates() {
 
   return (
     <section id="certificate">
-      <h2>Certificates</h2>
+      <div className="section-heading">
+        <p className="eyebrow">Certificates</p>
+        <h2>Learning that supports how I build and collaborate.</h2>
+      </div>
       <div className="certificates-grid">
         {certificates.map((cert, idx) => (
           <div key={idx} className="cert-card">

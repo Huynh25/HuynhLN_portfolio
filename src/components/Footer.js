@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-content">
         <p>&copy; 2026 / Le Nhu Huynh</p>
         <div className="thanks-message">
-          <p>Thank you for visiting my portfolio!</p>
+          <p>Frontend developer building practical UI for technical teams.</p>
         </div>
       </div>
     </footer>

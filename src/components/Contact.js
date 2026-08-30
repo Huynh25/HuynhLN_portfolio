@@ -1,5 +1,5 @@
 // components/Contact.js
-import { Mail, MapPin, Github, Linkedin } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, Send } from 'lucide-react';
 
 function Contact() {
   const contactInfo = [
@@ -30,7 +30,10 @@ function Contact() {
 
   return (
     <section id="contact">
-      <h2>Contact Me</h2>
+      <div className="section-heading">
+        <p className="eyebrow">Contact</p>
+        <h2>Have a frontend role, product idea, or interface that needs care?</h2>
+      </div>
 
       <div className="contact-cards">
         {contactInfo.map((info, idx) => {
@@ -67,6 +70,9 @@ function Contact() {
           );
         })}
       </div>
+      <a href="mailto:huynhln03@gmail.com" className="cta-button primary-action contact-cta">
+        <Send size={18} strokeWidth={1.8} /> Send email
+      </a>
     </section>
   );
 }
